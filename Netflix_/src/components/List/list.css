@@ -1,0 +1,49 @@
+.list{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.listtitle{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.container{
+    margin-left: 50px;
+    display: flex;
+    width: max-content;
+    margin-top: 10px;
+    
+    transition: all 1s ease;
+
+}
+.wrapper{
+    position: relative;
+}
+.wrapper .ArrowSliderRight{
+width: 50px;
+height: 100%;
+background-color: rgb(22, 22,22,0.5);
+position: absolute;
+right: 0px;
+top: 0px;
+bottom: 0px;
+margin: auto;
+cursor: pointer;
+z-index: 998;
+
+}
+.wrapper .ArrowSliderLeft{
+    width: 50px;
+height: 100%;
+background-color: rgb(22, 22,22,0.5);
+position: absolute;
+left: 0px;
+top: 0px;
+bottom: 0px;
+margin: auto;
+cursor: pointer;
+z-index: 998;
+
+}
